@@ -1,0 +1,72 @@
+
+body {
+    background-color: #ffffff;
+    font-family: 'Handlee', cursive;
+}
+
+main {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 900px;
+    background-color: rgb(252, 232, 232);
+}
+
+header {
+    height: 160px;
+    padding-top: 30px;
+    color: #ffffff;
+    background-color: #e1a9ac;
+}
+
+.photo {
+    margin-left: 80%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.description{
+    margin-left: 10%;
+    margin-top: -15%;   
+}   
+h1{ 
+    font-size: 35px;
+    letter-spacing: 1rem; 
+}
+h2{
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+}
+
+ h3{
+    margin-left: 10%;
+    color: #742d1d;
+    letter-spacing: .1rem;
+    font-size: 28px;
+}
+hr.ligne{
+ border-top: 2px solid #e18686;
+ width: 90%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin-left: 10%;
+}
+ .bloc {
+    padding: 0px;
+    width: 80%;
+    margin-left: 10%
+}
+.cool {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 7px;
+}
+.inner {
+    height: 100%;
+    background-color:  #e1a9ac;
+}
